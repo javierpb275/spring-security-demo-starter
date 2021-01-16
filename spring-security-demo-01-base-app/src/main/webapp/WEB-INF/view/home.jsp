@@ -29,6 +29,13 @@ Role(s):<security:authentication property="principal.authorities"/>
 <a href="${pageContext.request.contextPath}/leaders">LeaderShip Meeting</a>
 (only for managers)
 </p>
+
+<!-- Add a link to point to /systems ... this is for the admins -->
+<p>
+<a href="${pageContext.request.contextPath}/systems">IT Systems Meeting</a>
+(only for admins)
+</p>
+
 <hr>
 <!-- Add logout button -->
 <form:form action="${pageContext.request.contextPath}/logout"
